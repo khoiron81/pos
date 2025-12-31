@@ -1,0 +1,42 @@
+# Folder Structure
+
+## Laravel App
+app/
+  Http/
+    Controllers/
+      Admin/
+        BrandController.php
+        OutletController.php
+        OutletSelectController.php
+      Auth/
+        LoginController.php
+    Middleware/
+      ResolveOutlet.php
+  Models/
+    Brand.php
+    Outlet.php
+    Role.php
+    User.php
+    MenuCategory.php
+    MenuItem.php
+    Order.php
+    OrderItem.php
+    KitchenTicket.php
+    KitchenTicketItem.php
+    OrderEvent.php
+    Payment.php
+database/
+  migrations/
+  seeders/
+resources/
+  views/
+    auth/
+      login.blade.php
+    admin/
+      home.blade.php
+      select-outlet.blade.php
+      brands/
+      outlets/
+routes/
+  web.php
+  api.php
